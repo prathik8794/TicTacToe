@@ -31,7 +31,7 @@ bool check(char a[][3])
     {
         return 1;
     }
-    else if ((a[0][2] == 'O') && (a[1][1] == 'O') && (a[2][0] == 'X'))
+    else if ((a[0][2] == 'O') && (a[1][1] == 'O') && (a[2][0] == 'O'))
     {
         return 1;
     }
@@ -51,7 +51,7 @@ bool compcheck(char a[][3])
     {
         return 1;
     }
-    else if ((a[0][0] == 'X') && (a[1][0] == 'O') && (a[2][0] == 'O'))
+    else if ((a[0][0] == 'X') && (a[1][0] == 'X') && (a[2][0] == 'X'))
     {
         return 1;
     }
