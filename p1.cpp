@@ -110,9 +110,7 @@ int main()
     char temp[3][3] = {{'_', '_', '_'}, {'_', '_', '_'}, {'_', '_', '_'}};
     int num1, num2, x, y;
     /*
-*two options
 *1)first move by human
-*2)or computers first move
 /*
 *user='O'
 *computer='X'
